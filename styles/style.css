@@ -1,5 +1,5 @@
 /* common style */
-body{
+*{
     margin: 0;
 }
 /* nav style */
@@ -133,7 +133,32 @@ main{
     color: #6C6C6C;
         font-weight: 500;
 }
-
+/* footer section */
+footer{
+    background: #0A0826;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+    color: white;
+}
+.footer-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-desc{
+    color: #D9DBE1;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-icons a{
+    color: white;
+}
+.footer-icons .fa-brands, .fa-earth-americas{
+    font-size: 1.4rem;
+    margin-right: 5px;
+    margin-left: 5px;
+}
 
 
 
@@ -214,4 +239,27 @@ main{
     .sponsor-container{
         justify-content: space-evenly;
     }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+        .feature-container {
+            flex-direction: column-reverse;
+            padding: 30px;
+            gap: 30px;
+    
+        }
+    
+        .feature-info {
+            text-align: center;
+        }
+    
+        .feature-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+    
+        .feature-img {
+            width: 100%;
+        }
 }
